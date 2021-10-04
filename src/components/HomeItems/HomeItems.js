@@ -1,26 +1,23 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import { Button, Card} from 'react-bootstrap';
+
 
 const HomeItems = (props) => {
-    const {sir,img} = props.course
+    const { course, img, sir } = props.four;
+
     return (
-        <div>
-            <Row xs={1} md={2} className="g-4">
-  {Array.from({ length: 4 }).slice((_, idx) => (
-    <Col>
-      <Card>
-        <Card.Img variant="top" src={img} />
-        <Card.Body>
-          <Card.Title>{sir}</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
-  ))}
-</Row>
+        <div className="me-5 mt-4 mb-5 border border-3 border-danger bg-light">
+
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={img} />
+                <Card.Body>
+                    <Card.Title>{course}</Card.Title>
+                    <Card.Text>
+                        Teacher: {sir}
+                    </Card.Text>
+                    <Button variant="outline-dark">More Details</Button>
+                </Card.Body>
+            </Card>
         </div>
     );
 };

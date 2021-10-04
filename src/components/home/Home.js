@@ -12,13 +12,16 @@ const Home = () => {
         .then(res => res.json())
         .then(data =>setCourses(data))
     },[])
+    const fours = courses.slice(0,4);
     return (
         <div className="">
-        {
-            courses.map(course => <HomeItems 
-            key={course.id}
-            course={course}></HomeItems>)
-        }
+
+              <div className="d-flex justify-content-center flex-wrap">
+              {
+                    fours.map(four=><HomeItems
+                    four={four}></HomeItems>)
+                }
+              </div>
         </div>
     );
 };

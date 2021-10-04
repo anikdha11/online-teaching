@@ -7,7 +7,8 @@ const Header = () => {
     return (
         <div className="border">
         <Navigation></Navigation>
-        <h1 className="p-5 mt-0 fw-bold text-success bg-img">Online Teaching Home</h1>
+        <h1 className="mt-0 fw-bold text-success">Welcome To My</h1>
+        <h2 className="text-secondary fw-bold">Online Teaching Home</h2>
        
         </div>
     );
