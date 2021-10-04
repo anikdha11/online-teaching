@@ -1,10 +1,10 @@
 import React from 'react';
-import { FloatingLabel, Form } from 'react-bootstrap';
+import { Button, FloatingLabel, Form } from 'react-bootstrap';
 
 const SingUp = () => {
     return (
         <div>
-            <div className="ms-5 bg-success border border-dark mb-4" >
+            <div className="ms-5 bg-dark border border-dark mb-4" >
                 <h1 className="fw-bold">Login Here</h1>
                 < >
                     <FloatingLabel
@@ -18,7 +18,8 @@ const SingUp = () => {
                         <Form.Control type="password" placeholder="Password" />
                     </FloatingLabel>
                 </>
-                <a href="#@"> <h4 className="text-center me-5 fw-bold text-light mb-4">Sing Up <small>Here</small></h4></a>
+                <Button className="text-center me-5 fw-bold mb-4" variant="outline-light">Sing Up</Button>
+              
 
             </div>
         </div>
