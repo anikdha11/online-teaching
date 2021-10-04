@@ -1,0 +1,19 @@
+.footer{
+    background-color: black;
+    padding: 2rem;
+}
+
+.link{
+   font-size: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   padding: 2px;
+   text-align: center;
+
+}
+i{
+    color: rgb(216, 62, 62);
+}
+.icon i:hover {
+color: rgb(238, 173, 76);
+}
