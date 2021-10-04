@@ -4,7 +4,7 @@ import { Button, FloatingLabel, Form } from 'react-bootstrap';
 const SingUp = () => {
     return (
         <div>
-            <div className="ms-5 bg-dark border border-dark mb-4" >
+            <div className="bg-dark border border-dark mb-4" >
                 <h1 className="fw-bold">Login Here</h1>
                 < >
                     <FloatingLabel
