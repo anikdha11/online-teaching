@@ -13,7 +13,7 @@ const HomeItems = (props) => {
                 <Card.Body>
                     <Card.Title>{course}</Card.Title>
                     <Card.Text>
-                        Teacher: {sir}
+                        <h3>Teacher: {sir}</h3>
                     </Card.Text>
                     <Button variant="outline-dark">More Details</Button>
                 </Card.Body>
