@@ -3,3 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.title{
+    color:rgb(98, 221, 81);
+}
+.title:hover{
+    color: coral;
+}

@@ -7,7 +7,7 @@ const About = () => {
             <h1 className="fw-bold p-5">
             I'm not thinking about this.
             </h1>
-            <p className="text-danger">Up Coming about wait for this up coming update.</p>
+            <p className="text-danger">wait for this up coming.</p>
         </div>
     );
 };
