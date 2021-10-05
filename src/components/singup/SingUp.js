@@ -5,7 +5,7 @@ const SingUp = () => {
     return (
         <div>
             <div className="bg-dark border border-dark mb-4 mt-4" >
-                <h1 className="fw-bold">Login Here</h1>
+                <h1 className="fw-bold text-light">Login Here</h1>
                 < >
                     <FloatingLabel
                         controlId="floatingInput"
@@ -18,7 +18,7 @@ const SingUp = () => {
                         <Form.Control type="password" placeholder="Password" />
                     </FloatingLabel>
                 </>
-                <Button className="text-center me-5 fw-bold mb-4" variant="outline-light">Sing Up</Button>
+                <Button className="text-center me-5 fw-bold mb-4" variant="outline-light">Log in</Button>
               
 
             </div>
