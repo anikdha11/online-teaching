@@ -6,7 +6,7 @@
 
 ### Here this you can see some course Details.
 
-### That's educational some course
+### That's some educational course..
  
  ### Bangla , English , Mathemathics etc ...
 
